@@ -1,0 +1,15 @@
+Create a PowerShell function in Azure from the command line
+
+In this article, you use command-line tools to create a PowerShell function that responds to HTTP requests. After testing the code locally, you deploy it to the serverless environment of Azure Functions.
+
+Configure your local environment:
+Before you begin, you must have the following:
+1.	An Azure account with an active subscription.
+2.	One of the following tools for creating Azure resources.
+•	Azure PowerShell Module
+•	Azure CLI Version 2.4 or later
+But I use Azure cli to create a azure resource
+Install the Azure Functions Core Tools:
+Download and run the Core Tools installer, based on your version of Windows. If use your Linux machine and macOS please go to documentation and read instructions. But in my case, I use window O.S.
+Create a local function project:
+1.	Run the func init command, as follows, to create a functions project in a folder named LocalFunctionProj with the specified runtime
